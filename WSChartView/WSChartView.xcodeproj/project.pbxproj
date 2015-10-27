@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		200112B01BD3BC7F003C9ED4 /* WSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 200112AF1BD3BC7F003C9ED4 /* WSLabel.m */; settings = {ASSET_TAGS = (); }; };
+		200112B31BD3D5FD003C9ED4 /* WSBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 200112B21BD3D5FD003C9ED4 /* WSBar.m */; settings = {ASSET_TAGS = (); }; };
+		208F907E1BD8BFB10036FA6D /* WSImage--0.png in Resources */ = {isa = PBXBuildFile; fileRef = 208F90731BD8BFB10036FA6D /* WSImage--0.png */; settings = {ASSET_TAGS = (); }; };
+		208F907F1BD8BFB10036FA6D /* WSImage--1.png in Resources */ = {isa = PBXBuildFile; fileRef = 208F90741BD8BFB10036FA6D /* WSImage--1.png */; settings = {ASSET_TAGS = (); }; };
+		208F90801BD8BFB10036FA6D /* WSImage--2.png in Resources */ = {isa = PBXBuildFile; fileRef = 208F90751BD8BFB10036FA6D /* WSImage--2.png */; settings = {ASSET_TAGS = (); }; };
+		208F90811BD8BFB10036FA6D /* WSImage--3.png in Resources */ = {isa = PBXBuildFile; fileRef = 208F90761BD8BFB10036FA6D /* WSImage--3.png */; settings = {ASSET_TAGS = (); }; };
+		208F90821BD8BFB10036FA6D /* WSImage--4.png in Resources */ = {isa = PBXBuildFile; fileRef = 208F90771BD8BFB10036FA6D /* WSImage--4.png */; settings = {ASSET_TAGS = (); }; };
+		208F90831BD8BFB10036FA6D /* WSImage--5.png in Resources */ = {isa = PBXBuildFile; fileRef = 208F90781BD8BFB10036FA6D /* WSImage--5.png */; settings = {ASSET_TAGS = (); }; };
+		208F90841BD8BFB10036FA6D /* WSImage--6.png in Resources */ = {isa = PBXBuildFile; fileRef = 208F90791BD8BFB10036FA6D /* WSImage--6.png */; settings = {ASSET_TAGS = (); }; };
+		208F90851BD8BFB10036FA6D /* WSImage--7.png in Resources */ = {isa = PBXBuildFile; fileRef = 208F907A1BD8BFB10036FA6D /* WSImage--7.png */; settings = {ASSET_TAGS = (); }; };
+		208F90861BD8BFB10036FA6D /* WSImage--8.png in Resources */ = {isa = PBXBuildFile; fileRef = 208F907B1BD8BFB10036FA6D /* WSImage--8.png */; settings = {ASSET_TAGS = (); }; };
+		208F90871BD8BFB10036FA6D /* WSImage--9.png in Resources */ = {isa = PBXBuildFile; fileRef = 208F907C1BD8BFB10036FA6D /* WSImage--9.png */; settings = {ASSET_TAGS = (); }; };
+		208F90881BD8BFB10036FA6D /* WSImage--10.png in Resources */ = {isa = PBXBuildFile; fileRef = 208F907D1BD8BFB10036FA6D /* WSImage--10.png */; settings = {ASSET_TAGS = (); }; };
+		20B076111BD3A938003B7672 /* WSData.m in Sources */ = {isa = PBXBuildFile; fileRef = 20B076101BD3A938003B7672 /* WSData.m */; settings = {ASSET_TAGS = (); }; };
+		20FEF9281BD27ACB0001062F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FEF9271BD27ACB0001062F /* main.m */; };
+		20FEF92B1BD27ACB0001062F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FEF92A1BD27ACB0001062F /* AppDelegate.m */; };
+		20FEF9331BD27ACB0001062F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20FEF9321BD27ACB0001062F /* Assets.xcassets */; };
+		20FEF9361BD27ACB0001062F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20FEF9341BD27ACB0001062F /* LaunchScreen.storyboard */; };
+		20FEF93F1BD27B100001062F /* WSRootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FEF93E1BD27B100001062F /* WSRootTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		20FEF9421BD27CA60001062F /* WSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FEF9411BD27CA60001062F /* WSTableViewCell.m */; settings = {ASSET_TAGS = (); }; };
+		20FEF9451BD27D240001062F /* WSChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FEF9441BD27D240001062F /* WSChartView.m */; settings = {ASSET_TAGS = (); }; };
+		20FEF9481BD28A490001062F /* WSLineChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FEF9471BD28A490001062F /* WSLineChartView.m */; settings = {ASSET_TAGS = (); }; };
+		20FEF94B1BD28A570001062F /* WSBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20FEF94A1BD28A570001062F /* WSBarChartView.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		200112AE1BD3BC7F003C9ED4 /* WSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLabel.h; sourceTree = "<group>"; };
+		200112AF1BD3BC7F003C9ED4 /* WSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLabel.m; sourceTree = "<group>"; };
+		200112B11BD3D5FD003C9ED4 /* WSBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBar.h; sourceTree = "<group>"; };
+		200112B21BD3D5FD003C9ED4 /* WSBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSBar.m; sourceTree = "<group>"; };
+		208F90731BD8BFB10036FA6D /* WSImage--0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WSImage--0.png"; path = "水晶数字/WSImage--0.png"; sourceTree = "<group>"; };
+		208F90741BD8BFB10036FA6D /* WSImage--1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WSImage--1.png"; path = "水晶数字/WSImage--1.png"; sourceTree = "<group>"; };
+		208F90751BD8BFB10036FA6D /* WSImage--2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WSImage--2.png"; path = "水晶数字/WSImage--2.png"; sourceTree = "<group>"; };
+		208F90761BD8BFB10036FA6D /* WSImage--3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WSImage--3.png"; path = "水晶数字/WSImage--3.png"; sourceTree = "<group>"; };
+		208F90771BD8BFB10036FA6D /* WSImage--4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WSImage--4.png"; path = "水晶数字/WSImage--4.png"; sourceTree = "<group>"; };
+		208F90781BD8BFB10036FA6D /* WSImage--5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WSImage--5.png"; path = "水晶数字/WSImage--5.png"; sourceTree = "<group>"; };
+		208F90791BD8BFB10036FA6D /* WSImage--6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WSImage--6.png"; path = "水晶数字/WSImage--6.png"; sourceTree = "<group>"; };
+		208F907A1BD8BFB10036FA6D /* WSImage--7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WSImage--7.png"; path = "水晶数字/WSImage--7.png"; sourceTree = "<group>"; };
+		208F907B1BD8BFB10036FA6D /* WSImage--8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WSImage--8.png"; path = "水晶数字/WSImage--8.png"; sourceTree = "<group>"; };
+		208F907C1BD8BFB10036FA6D /* WSImage--9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WSImage--9.png"; path = "水晶数字/WSImage--9.png"; sourceTree = "<group>"; };
+		208F907D1BD8BFB10036FA6D /* WSImage--10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WSImage--10.png"; path = "水晶数字/WSImage--10.png"; sourceTree = "<group>"; };
+		20B0760F1BD3A938003B7672 /* WSData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSData.h; sourceTree = "<group>"; };
+		20B076101BD3A938003B7672 /* WSData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSData.m; sourceTree = "<group>"; };
+		20FEF9231BD27ACB0001062F /* WSChartView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSChartView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		20FEF9271BD27ACB0001062F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		20FEF9291BD27ACB0001062F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		20FEF92A1BD27ACB0001062F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		20FEF9321BD27ACB0001062F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		20FEF9351BD27ACB0001062F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		20FEF9371BD27ACB0001062F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20FEF93D1BD27B100001062F /* WSRootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSRootTableViewController.h; sourceTree = "<group>"; };
+		20FEF93E1BD27B100001062F /* WSRootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSRootTableViewController.m; sourceTree = "<group>"; };
+		20FEF9401BD27CA60001062F /* WSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTableViewCell.h; sourceTree = "<group>"; };
+		20FEF9411BD27CA60001062F /* WSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTableViewCell.m; sourceTree = "<group>"; };
+		20FEF9431BD27D240001062F /* WSChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSChartView.h; sourceTree = "<group>"; };
+		20FEF9441BD27D240001062F /* WSChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSChartView.m; sourceTree = "<group>"; };
+		20FEF9461BD28A490001062F /* WSLineChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSLineChartView.h; sourceTree = "<group>"; };
+		20FEF9471BD28A490001062F /* WSLineChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSLineChartView.m; sourceTree = "<group>"; };
+		20FEF9491BD28A570001062F /* WSBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSBarChartView.h; sourceTree = "<group>"; };
+		20FEF94A1BD28A570001062F /* WSBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSBarChartView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		20FEF9201BD27ACB0001062F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		208F90581BD8BF110036FA6D /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				208F90731BD8BFB10036FA6D /* WSImage--0.png */,
+				208F90741BD8BFB10036FA6D /* WSImage--1.png */,
+				208F90751BD8BFB10036FA6D /* WSImage--2.png */,
+				208F90761BD8BFB10036FA6D /* WSImage--3.png */,
+				208F90771BD8BFB10036FA6D /* WSImage--4.png */,
+				208F90781BD8BFB10036FA6D /* WSImage--5.png */,
+				208F90791BD8BFB10036FA6D /* WSImage--6.png */,
+				208F907A1BD8BFB10036FA6D /* WSImage--7.png */,
+				208F907B1BD8BFB10036FA6D /* WSImage--8.png */,
+				208F907C1BD8BFB10036FA6D /* WSImage--9.png */,
+				208F907D1BD8BFB10036FA6D /* WSImage--10.png */,
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+		20FEF91A1BD27ACB0001062F = {
+			isa = PBXGroup;
+			children = (
+				20FEF9251BD27ACB0001062F /* WSChartView */,
+				20FEF9241BD27ACB0001062F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		20FEF9241BD27ACB0001062F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				20FEF9231BD27ACB0001062F /* WSChartView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20FEF9251BD27ACB0001062F /* WSChartView */ = {
+			isa = PBXGroup;
+			children = (
+				20FEF9291BD27ACB0001062F /* AppDelegate.h */,
+				20FEF92A1BD27ACB0001062F /* AppDelegate.m */,
+				20FEF9321BD27ACB0001062F /* Assets.xcassets */,
+				20FEF9341BD27ACB0001062F /* LaunchScreen.storyboard */,
+				20FEF9371BD27ACB0001062F /* Info.plist */,
+				20FEF93D1BD27B100001062F /* WSRootTableViewController.h */,
+				20FEF93E1BD27B100001062F /* WSRootTableViewController.m */,
+				20FEF9261BD27ACB0001062F /* Supporting Files */,
+				20FEF9401BD27CA60001062F /* WSTableViewCell.h */,
+				20FEF9411BD27CA60001062F /* WSTableViewCell.m */,
+				20FEF9431BD27D240001062F /* WSChartView.h */,
+				20FEF9441BD27D240001062F /* WSChartView.m */,
+				20FEF9461BD28A490001062F /* WSLineChartView.h */,
+				20FEF9471BD28A490001062F /* WSLineChartView.m */,
+				20FEF9491BD28A570001062F /* WSBarChartView.h */,
+				20FEF94A1BD28A570001062F /* WSBarChartView.m */,
+				20B0760F1BD3A938003B7672 /* WSData.h */,
+				20B076101BD3A938003B7672 /* WSData.m */,
+				200112AE1BD3BC7F003C9ED4 /* WSLabel.h */,
+				200112AF1BD3BC7F003C9ED4 /* WSLabel.m */,
+				200112B11BD3D5FD003C9ED4 /* WSBar.h */,
+				200112B21BD3D5FD003C9ED4 /* WSBar.m */,
+			);
+			path = WSChartView;
+			sourceTree = "<group>";
+		};
+		20FEF9261BD27ACB0001062F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				208F90581BD8BF110036FA6D /* New Group */,
+				20FEF9271BD27ACB0001062F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		20FEF9221BD27ACB0001062F /* WSChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20FEF93A1BD27ACB0001062F /* Build configuration list for PBXNativeTarget "WSChartView" */;
+			buildPhases = (
+				20FEF91F1BD27ACB0001062F /* Sources */,
+				20FEF9201BD27ACB0001062F /* Frameworks */,
+				20FEF9211BD27ACB0001062F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WSChartView;
+			productName = WSChartView;
+			productReference = 20FEF9231BD27ACB0001062F /* WSChartView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20FEF91B1BD27ACB0001062F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = WS;
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "万圣";
+				TargetAttributes = {
+					20FEF9221BD27ACB0001062F = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 20FEF91E1BD27ACB0001062F /* Build configuration list for PBXProject "WSChartView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 20FEF91A1BD27ACB0001062F;
+			productRefGroup = 20FEF9241BD27ACB0001062F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				20FEF9221BD27ACB0001062F /* WSChartView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		20FEF9211BD27ACB0001062F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				208F90841BD8BFB10036FA6D /* WSImage--6.png in Resources */,
+				208F907F1BD8BFB10036FA6D /* WSImage--1.png in Resources */,
+				208F90811BD8BFB10036FA6D /* WSImage--3.png in Resources */,
+				208F90851BD8BFB10036FA6D /* WSImage--7.png in Resources */,
+				208F90861BD8BFB10036FA6D /* WSImage--8.png in Resources */,
+				208F90821BD8BFB10036FA6D /* WSImage--4.png in Resources */,
+				208F90831BD8BFB10036FA6D /* WSImage--5.png in Resources */,
+				208F90801BD8BFB10036FA6D /* WSImage--2.png in Resources */,
+				208F90881BD8BFB10036FA6D /* WSImage--10.png in Resources */,
+				208F90871BD8BFB10036FA6D /* WSImage--9.png in Resources */,
+				20FEF9361BD27ACB0001062F /* LaunchScreen.storyboard in Resources */,
+				208F907E1BD8BFB10036FA6D /* WSImage--0.png in Resources */,
+				20FEF9331BD27ACB0001062F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		20FEF91F1BD27ACB0001062F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				200112B01BD3BC7F003C9ED4 /* WSLabel.m in Sources */,
+				20FEF92B1BD27ACB0001062F /* AppDelegate.m in Sources */,
+				20FEF9451BD27D240001062F /* WSChartView.m in Sources */,
+				20FEF94B1BD28A570001062F /* WSBarChartView.m in Sources */,
+				20FEF9421BD27CA60001062F /* WSTableViewCell.m in Sources */,
+				20FEF9481BD28A490001062F /* WSLineChartView.m in Sources */,
+				20FEF9281BD27ACB0001062F /* main.m in Sources */,
+				200112B31BD3D5FD003C9ED4 /* WSBar.m in Sources */,
+				20FEF93F1BD27B100001062F /* WSRootTableViewController.m in Sources */,
+				20B076111BD3A938003B7672 /* WSData.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		20FEF9341BD27ACB0001062F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				20FEF9351BD27ACB0001062F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		20FEF9381BD27ACB0001062F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		20FEF9391BD27ACB0001062F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		20FEF93B1BD27ACB0001062F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WSChartView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wansheng-ios.WSChartView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		20FEF93C1BD27ACB0001062F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WSChartView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wansheng-ios.WSChartView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20FEF91E1BD27ACB0001062F /* Build configuration list for PBXProject "WSChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FEF9381BD27ACB0001062F /* Debug */,
+				20FEF9391BD27ACB0001062F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		20FEF93A1BD27ACB0001062F /* Build configuration list for PBXNativeTarget "WSChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				20FEF93B1BD27ACB0001062F /* Debug */,
+				20FEF93C1BD27ACB0001062F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20FEF91B1BD27ACB0001062F /* Project object */;
+}
