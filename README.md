@@ -1,4 +1,4 @@
-# WSChart
+# WSChartView
 framework for draw line or bar chart
 Line and Bar charts. You can mark the range of values you want, and show the max or min values in linechartview.
 
