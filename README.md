@@ -15,34 +15,34 @@ Line and Bar charts. You can mark the range of values you want, and show the max
 
 ### init
 
-  - (instancetype)initWithFrame:(CGRect)frame WithChartViewStyle:(WSChartViewStyle)Style WithDataSource:(id<WSDataSource>)source;
+   - (instancetype)initWithFrame:(CGRect)frame WithChartViewStyle:(WSChartViewStyle)Style WithDataSource:(id<WSDataSource>)source;
 
 ## WSDataSource
 ####required
 
-  - (NSArray *)WSChartView_xLabelArrayForView:(WSChartView *)chartView;
-
-  - (NSArray *)WSChartView_yValueArrayForView:(WSChartView *)chartView;
+   - (NSArray *)WSChartView_xLabelArrayForView:(WSChartView *)chartView;
+ 
+   - (NSArray *)WSChartView_yValueArrayForView:(WSChartView *)chartView;
 
 ####optional
 
     // the colors for lines and bars.
-  - (NSArray *)WSChartView_ColorArrayForView:(WSChartView *)chartView;
+   - (NSArray *)WSChartView_ColorArrayForView:(WSChartView *)chartView;
     //CGRange CGRangeMake(CGFloat max, CGFloat min);
-  - (CGRange)WSChartViewChooseRangeInLineChartView:(WSChartView *)chartView;
+   - (CGRange)WSChartViewChooseRangeInLineChartView:(WSChartView *)chartView;
     //You can insert images instead labels
-  - (NSArray *)WSChartView_xImageArrayForView:(WSChartView *)chartView;
+   - (NSArray *)WSChartView_xImageArrayForView:(WSChartView *)chartView;
 
 ####Additional options available for WSChartLineStyle
 
-    //Mark the range of values with whiteColor if you need
-    - (CGRange)WSChartViewMarkRangeInLineChartView:(WSChartView *)chartView;
+    //Mark the range of values with whiteColor if you need.
+   - (CGRange)WSChartViewMarkRangeInLineChartView:(WSChartView *)chartView;
 
-    //You can choose horizonLine which you want to show
-    - (BOOL)WSChartViewShowHorizontalLineAtIndex:(NSInteger)index;
+    //You can choose horizonLine which you want to show.
+   - (BOOL)WSChartViewShowHorizontalLineAtIndex:(NSInteger)index;
 
     // Show the label on the max and min values with their colors.
-    - (BOOL)WSChartViewShowMaxandMinPointAtIndex:(NSInteger)index;
+   - (BOOL)WSChartViewShowMaxandMinPointAtIndex:(NSInteger)index;
 
 #### Select from two styles for WSChartView:
 
@@ -102,20 +102,20 @@ WSBarChartStyle
     NSArray * array = [NSArray array];
     if (_path.section==0) {
     switch (_path.row) {
-    case 0:
-    array = @[ary];
-    return array;
-    case 1:
-    return @[ary3];
-    case 2:
-    return @[ary1,ary2];
-    return @[ary1,ary2,ary4];
+    	case 0:
+    	array = @[ary];
+    	return array;
+    	case 1:
+    	return @[ary3];
+    	case 2:
+    	return @[ary1,ary2];
+    	return @[ary1,ary2,ary4];
         }
     }else{
-    if (_path.row) {
-    return @[ary1,ary3];
-    }else{
-    return @[ary2];
+    	if (_path.row) {
+    		return @[ary1,ary3];
+    	}else{
+    		return @[ary2];
         }
     }
 }
